@@ -1,0 +1,6 @@
+MainPackage=D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyCient.UWP\bin\ARM\Release\Upload\EncryptKeyCient.UWP_1.0.0.0_ARM.msix
+SymbolPackage=D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyCient.UWP\bin\ARM\Release\Upload\EncryptKeyCient.UWP_1.0.0.0\EncryptKeyCient.UWP_1.0.0.0_ARM.appxsym
+ResourcePack=D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyCient.UWP\bin\ARM\Release\Upload\EncryptKeyCient.UWP_1.0.0.0_scale-100.msix
+ResourcePack=D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyCient.UWP\bin\ARM\Release\Upload\EncryptKeyCient.UWP_1.0.0.0_scale-125.msix
+ResourcePack=D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyCient.UWP\bin\ARM\Release\Upload\EncryptKeyCient.UWP_1.0.0.0_scale-150.msix
+ResourcePack=D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyCient.UWP\bin\ARM\Release\Upload\EncryptKeyCient.UWP_1.0.0.0_scale-400.msix

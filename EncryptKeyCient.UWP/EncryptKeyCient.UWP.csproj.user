@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\singh\Downloads\encrypt.png</Source>
+    <SmallTileSource>C:\Users\singh\Downloads\encrypt.png</SmallTileSource>
+    <MediumTileSource>C:\Users\singh\Downloads\encrypt.png</MediumTileSource>
+    <WideTileSource>C:\Users\singh\Downloads\encrypt.png</WideTileSource>
+    <LargeTileSource>C:\Users\singh\Downloads\encrypt.png</LargeTileSource>
+    <AppIconSource>C:\Users\singh\Downloads\encrypt.png</AppIconSource>
+    <SplashScreenSource>C:\Users\singh\Downloads\encrypt.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\singh\Downloads\encrypt.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>StoreAndSideload</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

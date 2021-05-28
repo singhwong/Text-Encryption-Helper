@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="EncryptKeyClient.EncryptPage"
+    BackgroundColor="{AppThemeBinding Dark=slateGray,Light=whiteSmoke}">
+    <ContentPage.Content>
+        <StackLayout Spacing="10"
+                     Margin="30"
+>
+            <Grid WidthRequest="400"
+                  HorizontalOptions="Center">
+                <Entry Grid.ColumnSpan="2" Placeholder="4 specific characters (key)"
+                       WidthRequest="230"
+                       HorizontalOptions="Center"
+                       MaxLength="4"
+                       Text="{Binding SecretText,Mode=TwoWay}"
+                       ClearButtonVisibility="WhileEditing"
+                       Keyboard="Plain"
+                       ReturnType="Default"
+                       IsSpellCheckEnabled="False"
+                       IsTextPredictionEnabled="False"
+                       TextColor="Red"
+                       HeightRequest="30"/>
+                <Button Grid.Column="1"
+                        Command="{Binding RandomSecretCommand}"
+                        Text="Random"
+                        ImageSource="/Assets/random.png"
+                        Margin="10"
+                        BackgroundColor="MediumPurple"
+                        HorizontalOptions="EndAndExpand"
+                        WidthRequest="70"/>
+            </Grid>
+            <Grid WidthRequest="400"
+                  HorizontalOptions="Center">
+                <Entry Placeholder="Content to be encrypted"
+                   WidthRequest="230"
+                   HorizontalOptions="Center"
+                   Text="{Binding KeyText,Mode=TwoWay}"
+                   ClearButtonVisibility="WhileEditing"
+                   Keyboard="Plain"
+                   ReturnType="Default"
+                   IsSpellCheckEnabled="False"
+                   IsTextPredictionEnabled="False"
+                   HeightRequest="50"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Spacing="50">
+                <Button Text="Encrypt"
+                        Command="{Binding EncryptCommand}"
+                        BackgroundColor="IndianRed">
+                </Button>
+                <Button Text="Decrypt"
+                        Command="{Binding DecryptCommand}"
+                        BackgroundColor="SteelBlue"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center">
+                <Editor Text="{Binding ResultText,Mode=OneWay}"
+                        AutoSize="TextChanges"
+                        IsReadOnly="True"/>
+                <Button HorizontalOptions="Center"
+                        Command="{Binding ToClipboardCommand}"
+                        HeightRequest="30"
+                        Text="Copy"/>
+            </StackLayout>
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="EndAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="More Apps"
+                              TextColor="Blue"
+                              TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Command="{Binding MoreAppsCommand}"
+                                    CommandParameter="ms-windows-store://publisher/?name=singhwong"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalOptions="Start">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Privacy Policy"
+                              TextColor="Blue"
+                              TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Command="{Binding PrivacyPolicyCommand}"
+                                    CommandParameter="https://github.com/singhwong/Privacy-Policy/blob/master/Encrypt%20Key%20Client%20for%20UWP"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
