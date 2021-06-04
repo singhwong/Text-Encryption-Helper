@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using EncryptKeyClient.EncryptHelper;
 using EncryptKeyClient.Services;
+using Plugin.StoreReview;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -70,6 +71,12 @@ namespace EncryptKeyClient.ViewModel
             {
                 await Launcher.OpenAsync(url);
             });
+            CommentCommand = new Command<string>((url)=>
+            {
+                //await CrossStoreReview.Current.RequestReview(true);
+                //CrossStoreReview.Current.OpenStoreListing(url);
+                CrossStoreReview.Current.OpenStoreReviewPage(url);
+            });
         }
         string _secretText;
         // 4位特定字符
@@ -97,5 +104,6 @@ namespace EncryptKeyClient.ViewModel
         public ICommand ToClipboardCommand { get; private set; }
         public ICommand MoreAppsCommand { get; private set; }
         public ICommand PrivacyPolicyCommand { get; private set; }
+        public ICommand CommentCommand { get; set; }
     }
 }

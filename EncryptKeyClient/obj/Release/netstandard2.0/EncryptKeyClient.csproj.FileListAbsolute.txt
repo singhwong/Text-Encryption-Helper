@@ -1,0 +1,14 @@
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\bin\Release\netstandard2.0\EncryptKeyClient.deps.json
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\bin\Release\netstandard2.0\EncryptKeyClient.dll
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\bin\Release\netstandard2.0\ref\EncryptKeyClient.dll
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\bin\Release\netstandard2.0\EncryptKeyClient.pdb
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptKeyClient.csprojAssemblyReference.cache
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptPage.xaml.g.cs
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptKeyClient.AssemblyInfoInputs.cache
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptKeyClient.AssemblyInfo.cs
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptKeyClient.csproj.CoreCompileInputs.cache
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\XamlC.stamp
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptKeyClient.dll
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\ref\EncryptKeyClient.dll
+D:\WXG_Projects\Encrypt-Client-Sample\EncryptKeyClient\obj\Release\netstandard2.0\EncryptKeyClient.pdb

@@ -84,13 +84,28 @@
             <Label HorizontalOptions="Start">
                 <Label.FormattedText>
                     <FormattedString>
+                        <Span Text="Store Rating"
+                              TextColor="Blue"
+                              TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Command="{Binding CommentCommand}"
+                                    CommandParameter="9P722DSDWVM7"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalOptions="Start">
+                <Label.FormattedText>
+                    <FormattedString>
                         <Span Text="Privacy Policy"
                               TextColor="Blue"
                               TextDecorations="Underline">
                             <Span.GestureRecognizers>
                                 <TapGestureRecognizer
                                     Command="{Binding PrivacyPolicyCommand}"
-                                    CommandParameter="https://github.com/singhwong/Privacy-Policy/blob/master/Encrypt%20Key%20Client%20for%20UWP"/>
+                                    CommandParameter="https://github.com/singhwong/Privacy-Policy/blob/master/Text%20Encryption%20Helper.md"/>
                             </Span.GestureRecognizers>
                         </Span>
                     </FormattedString>

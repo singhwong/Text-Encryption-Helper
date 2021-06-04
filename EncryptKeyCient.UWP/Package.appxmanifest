@@ -9,7 +9,7 @@
   <Identity
     Name="14523wongsoft.TextEncryptionHelper"
     Publisher="CN=142C2F57-E79D-408C-83F9-E14BC50B8D43"
-    Version="1.0.1.0" />
+    Version="1.0.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="c4b71c3c-a581-46a8-98ac-f3f26128d38c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
